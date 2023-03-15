@@ -37,8 +37,3 @@ function invokeAction({ action, id, name, email, phone }) {
 }
 
 invokeAction(argv);
-
-// node index.js -a list
-// node index.js -a get -i 1
-// node index.js -a add -n "Dima" -e "dh@goit.com" -p "(111) 111-1111"
-// node index.js -a remove -i 3
