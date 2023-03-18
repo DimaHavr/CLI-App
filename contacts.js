@@ -44,7 +44,7 @@ function removeContact(contactId) {
   });
 }
 
-function addContact(id, name, email, phone) {
+function addContact(name, email, phone) {
   fs.readFile(contactsPath, 'utf-8', (err, data) => {
     if (err) {
       console.error(err);
